@@ -1,0 +1,1 @@
+console.log("NTM is working.(今んとこ何もしてない)");

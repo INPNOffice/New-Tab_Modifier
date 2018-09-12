@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">
+	<meta name="copyright" content="Copyright Imperial Nippon Paint Navy." />
+	<title id="title">
+	</title>
+	<style type="text/css">
+		html {
+			height: 100%;
+			margin: 0;
+		}
+			body {
+				height: 98%;
+				background : #F8F8F8;
+				margin: 0;
+			}
+				div.main {
+					height: 95%;
+					margin: 0;
+				}
+					form {
+						height: 100%;
+						margin: 0;
+					}
+						div.system {
+							height: 100%;
+							margin: 0;
+						}
+							div.lang {
+								height: 5%;
+								margin: 0;
+							}
+							div.tile {
+								height: 5%;
+								margin: 0;
+							}
+							div.wp {
+								height: 70%;
+								width: 100%;
+								margin: 0;
+							}
+				div.copy_right {
+					height: 5%;
+					margin: 0;
+				}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<form name="form">
+			<div class="system">
+				<h1 id="config"></h1><!--見出し(設定)-->
+				<div class="system">
+				
+					<h2 id="system"></h2><!--見出し(情報)-->
+					<div id="Lang" class="lang"></div><!--項目(言語)-->
+					
+					<h2 id="system"></h2><!--見出し(設定)-->
+					<div class="tile"><!--項目(タイル表示)-->
+						<span id="tileue">タイル表示</span><!--小見出し(タイル表示)-->:
+						<input type="checkbox" name="tile">
+					</div>
+					<div class="wp"><!--項目(壁紙)-->
+						<span id="wpimg">壁紙画像</span><!--小見出し(壁紙画像)-->:
+						<input type="file" name="bgimg"><br>
+						preview
+						<div id="image"></div>
+						<span id="wptype">壁紙タイプ</span><!--小見出し(壁紙タイプ)-->:
+						<select name="type">
+							<option value="1" selected>type1</option>
+							<option value="2">type2</option>
+							<option value="3">type3</option>
+							<option value="4">type4</option>
+							<option value="5">type5</option>
+							<option value="6">type6</option>
+						</select>
+						<span id="describe"></span><br>
+						余白の色(カラーコードで記述 ex.赤:#FF0000 or rgb(255,0,0),青:#0000FF or rgb(0,0,255),緑:#00FF00 or rgb(0,255,0))
+						:
+						<input type='text' name='color'><input type='button' name='sc' value='保存'>
+					</div>
+					
+				</div>
+			</div>
+		</form>
+	</div>
+	<div class="copy_right" style="display: flex; justify-content: center;">
+		Copyright © INPN All Rights Reserved.
+	</div>
+</body>
+<script src="options.js"></script>
+</html>

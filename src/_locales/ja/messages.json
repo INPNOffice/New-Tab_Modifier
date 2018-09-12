@@ -1,0 +1,23 @@
+{
+	"config" : {
+	 	"message":"設定"
+	 },
+	"lang" : {
+	 	"message":"日本語"
+	 },
+	"langage" : {
+	 	"message":"言語"
+	 },
+	"system" : {
+	 	"message":"情報"
+	 },
+	"tileue" : {
+	 	"message":"タイル表示"
+	 },
+	"wpimg" : {
+	 	"message":"壁紙画像"
+	 },
+	"wptype" : {
+	 	"message":"壁紙タイプ"
+	 }
+}

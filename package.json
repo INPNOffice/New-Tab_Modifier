@@ -1,0 +1,15 @@
+{
+  "name": "ntm",
+  "version": "1.2.3",
+  "description": "新しいタブを変更",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "chrome-extension"
+  ],
+  "author": "INPN_Office",
+  "license": "ISC"
+}

@@ -1,0 +1,23 @@
+{
+	"config" : {
+	 	"message":"Config"
+	 },
+	"lang" : {
+	 	"message":"English"
+	 },
+	"langage" : {
+	 	"message":"Langage"
+	 },
+	"system" : {
+	 	"message":"Info"
+	 },
+	"tileue" : {
+	 	"message":"Tile enble/disable"
+	 },
+	"wpimg" : {
+	 	"message":"Image to be wallpaper"
+	 },
+	"wpimg" : {
+	 	"message":"Wallpaper type"
+	 }
+}
